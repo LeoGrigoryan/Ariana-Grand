@@ -1,0 +1,19 @@
+footer .links {
+    gap: 1.1rem;
+    font-size: 1.3rem;
+}
+footer {
+    padding: 1rem;
+    gap: .3rem;
+}
+.very {
+    width: 100%;
+    scale: .3;
+    width: 100% !important;
+    text-align: center;
+}
+.less {
+    width: 100% !important;
+    scale: .8;
+    text-align: center;
+}

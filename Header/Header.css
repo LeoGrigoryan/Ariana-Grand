@@ -1,0 +1,113 @@
+.storh {
+    height: 100px;
+    padding: 0 3.5rem;
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 98276756 !important;
+    top: 0;
+}
+
+header {
+    background: linear-gradient(#000, transparent);
+}
+
+nav {
+    gap: 1rem;
+}
+
+img {
+    width: 13rem;
+}
+
+.links svg {
+    fill: #fff;
+    font-size: 1.2rem;
+}
+
+.links {
+    gap: 1rem;
+}
+
+.storh button {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.storh button svg {
+    fill: #fff;
+    font-size: 2rem;
+}
+
+.storh .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+@media only screen and (max-width: 750px) {
+    .storh {
+        position: relative;
+        padding: 2rem 2rem;
+        justify-content: center;
+    }
+
+    .storh button {
+        display: flex;
+    }
+
+    .storh .logo {
+        position: static;
+        display: flex;
+        translate: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .searchbox {
+        position: absolute;
+        width: 100%;
+        height: max-content;
+        top: 100%;
+        left: 50%;
+        translate: -50% -50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90% !important;
+        padding: 1rem 0;
+    }
+    .searchbox input {
+        width: 100% !important;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .storh {
+        padding: 1rem;
+        gap: .5rem;
+    }
+}
+
+.searchbox input {
+    background: transparent;
+    color: #fff;
+    width: 15vw;
+    font: 1rem cursive;
+}
+
+.searchbox {
+    border-bottom: .1rem solid #fff;
+    color: #fff;
+    gap: 1rem;
+    padding: .5rem 0;
+    width: max-content;
+}

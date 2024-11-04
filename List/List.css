@@ -1,0 +1,17 @@
+.list {
+    padding-left: 7rem;
+    padding: 1rem 0rem 3rem 7rem;
+    gap: .2rem;
+}
+@media only screen and (max-width: 750px) {
+    .list {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}

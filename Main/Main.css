@@ -1,0 +1,39 @@
+main {
+    height: 100vh;
+    width: 100%;
+    background: url(https://www.arianagrande.com/files/2024/02/ag7-website-banner-2160x1215-1-compressed.jpg) no-repeat center / cover;
+    padding-right: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.contpar {
+    text-align: center;
+    gap: 2.5rem;
+}
+.contpar > div {
+    gap: 1rem;
+}
+main img {
+    width: 30rem;
+}
+main button {
+    width: max-content;
+}
+@media only screen and (max-width: 750px) {
+    main {
+        padding: 0;
+        justify-content: center;
+        background: url(https://www.arianagrande.com/files/2024/02/ag7-website-banner-585x1215-1-compressed.jpg) no-repeat top / cover;
+    }
+}
+@media only screen and (max-width: 550px) {
+    h1 img {
+        width: 17rem;
+    }
+    main button .t {
+        font-size: .7rem !important;
+    }
+}
